@@ -14,11 +14,11 @@ Requires: pypi-ijson-license = %{version}-%{release}
 Requires: pypi-ijson-python = %{version}-%{release}
 Requires: pypi-ijson-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 .. image:: https://travis-ci.com/ICRAR/ijson.svg?branch=master
