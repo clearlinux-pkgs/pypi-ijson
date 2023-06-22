@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-ijson
-Version  : 3.2.1
-Release  : 17
-URL      : https://files.pythonhosted.org/packages/68/31/bbe68817b1f480d3fec3356f14a1805157b0be5b81d87a58ea962d3c29da/ijson-3.2.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/68/31/bbe68817b1f480d3fec3356f14a1805157b0be5b81d87a58ea962d3c29da/ijson-3.2.1.tar.gz
+Version  : 3.2.2
+Release  : 18
+URL      : https://files.pythonhosted.org/packages/b8/91/3ca138a2354e566dfdc5210445f490c79e7facb3ce97cdde5530fe8f885c/ijson-3.2.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/b8/91/3ca138a2354e566dfdc5210445f490c79e7facb3ce97cdde5530fe8f885c/ijson-3.2.2.tar.gz
 Summary  : Iterative JSON parser with standard Python iterator interfaces
 Group    : Development/Tools
 License  : BSD-3-Clause
@@ -56,10 +56,10 @@ python3 components for the pypi-ijson package.
 
 
 %prep
-%setup -q -n ijson-3.2.1
-cd %{_builddir}/ijson-3.2.1
+%setup -q -n ijson-3.2.2
+cd %{_builddir}/ijson-3.2.2
 pushd ..
-cp -a ijson-3.2.1 buildavx2
+cp -a ijson-3.2.2 buildavx2
 popd
 
 %build
@@ -67,7 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1686605904
+export SOURCE_DATE_EPOCH=1687445606
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
