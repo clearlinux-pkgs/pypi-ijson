@@ -7,7 +7,7 @@
 #
 Name     : pypi-ijson
 Version  : 3.3.0
-Release  : 22
+Release  : 23
 URL      : https://files.pythonhosted.org/packages/6c/83/28e9e93a3a61913e334e3a2e78ea9924bb9f9b1ac45898977f9d9dd6133f/ijson-3.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/6c/83/28e9e93a3a61913e334e3a2e78ea9924bb9f9b1ac45898977f9d9dd6133f/ijson-3.3.0.tar.gz
 Summary  : Iterative JSON parser with standard Python iterator interfaces
